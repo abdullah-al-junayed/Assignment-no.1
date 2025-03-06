@@ -147,4 +147,48 @@ cursor: pointer;
     margin-left: 8px;
    
 }
+.hero .p1{
+    position: relative;
+    margin: auto;
+    top:40%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    width: 153px;
+padding: 15px 34px;
+font-size: 22px;
+border-radius: 30px;
+text-decoration: underline;
+color: #FFFFFF;
+border: 1px solid #FFFFFF;
+font-weight: bold;
+text-underline-offset: 5px;
 
+}
+.buy-sell{
+    height: 470px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    background-color: #FDE24F;
+
+}
+.buy-sell p{
+    height: 41px;
+   padding:  80px;
+    left: 469px;
+font-weight: bold;
+font-size: 34px;
+text-align: center;
+
+}
+.buy-sell div img{
+    width: 200px;
+    height: 200px;
+}
+.buy-sell div{
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+}

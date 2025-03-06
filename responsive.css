@@ -16,7 +16,15 @@
         width: 150px;
     }
 }
+/* hero section */
 @media screen and (max-width: 1250px){
+    .hero{
+        background-image: url(images/Rectangle\ 1.png);
+        height: 1500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
     .herooffer{
         position: relative;
         width:560px ;
@@ -44,4 +52,19 @@
     margin-top: 10px;
     width: 250px;
 }
+}
+/* buy/sell */
+@media screen and (max-width: 1250px){
+    
+    .buy-sell div{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        }
+    .buy-sell div img{
+        width: 120px;
+        height: 120px;
+    }
 }
