@@ -1,0 +1,47 @@
+@media screen and (max-width: 1000px){
+    
+    /* header */
+    .headerlist{
+        display: none;
+    }
+    .button1{
+        padding: 7px 14px;
+        font-size: 18px;
+    }
+    .button2{
+        padding: 7px 14px;
+        font-size: 18px;
+    }
+    .headerimage{
+        width: 150px;
+    }
+}
+@media screen and (max-width: 1250px){
+    .herooffer{
+        position: relative;
+        width:560px ;
+        height: 760px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        border: 1px; 
+        margin: auto;
+        top:30%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+      
+    }
+    .findoffer div{
+        display: flex;
+        flex-direction: column;
+    }
+.howmuch{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.button3{
+    margin-top: 10px;
+    width: 250px;
+}
+}

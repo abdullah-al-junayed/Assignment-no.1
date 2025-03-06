@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 70px;
+}
+.headerlist ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.headerbutton{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.button1{
+    padding: 11px 28px;
+    background-color: #F1F1F1;
+    color: black;
+    border: none;
+    font-weight: 500;
+    font-size: 22px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button2{
+    padding: 11px 28px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    font-weight:200;
+    font-size: 22px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* hero section */
+
+.hero{
+    background-image: url(images/Rectangle\ 1.png);
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.herooffer{
+    position: relative;
+    width:1160px ;
+    height: 360px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px; 
+    margin: auto;
+    top:30%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+  
+}
+.heropadding{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.heropadding h1{
+width: 373;
+height: 54;
+font-family: Inter;
+font-weight: bold;
+font-size: 45px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+
+}
+.findoffer div{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.findoffer p{
+    border:none;
+    background-color: #ECECEC;
+    display: flex;
+    width: 245px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+font-weight: bold;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+border-radius: 10px;
+cursor: pointer;
+margin-top: 40px;
+    
+}
+.button3{
+    width: 765px;
+height: 50px;
+background-color: #ECECEC;
+border-radius: 8px;
+font-weight: bold;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+border: none;
+cursor: pointer;
+
+}
+.button4{
+    width: 250px;
+height: 49px;
+border-radius: 30px;
+padding-top: 11px;
+padding-right: 28px;
+padding-bottom: 11px;
+padding-left: 28px;
+background-color: #00EBC7;
+color: black;
+font-weight: bold;
+border: none;
+font-size: 22px;
+cursor: pointer;
+}
+.howmuch{
+    display: flex;
+    align-items: center;justify-content: space-around;
+    margin-left: 8px;
+   
+}
+
