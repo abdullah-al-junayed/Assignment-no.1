@@ -26,6 +26,9 @@
         width: 100px;
     }
 }
+.headerbutton{
+    gap:10px;
+}
 /* hero section */
 @media screen and (max-width: 1250px){
     .hero{
