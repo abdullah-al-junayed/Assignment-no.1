@@ -8,7 +8,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 70px;
+    padding: 30px 70px;
+}
+.headerimage{
+    width: 200px;
+height: 38.63918685913086px;
+
+
 }
 .headerlist ul{
     display: flex;
@@ -26,6 +32,9 @@
     gap: 20px;
 }
 .button1{
+    width: 114px;
+height: 49px;
+
     padding: 11px 28px;
     background-color: #F1F1F1;
     color: black;
@@ -36,6 +45,10 @@
     cursor: pointer;
 }
 .button2{
+    width: 176px;
+height: 49px;
+
+
     padding: 11px 28px;
     background-color: #000000;
     color: white;

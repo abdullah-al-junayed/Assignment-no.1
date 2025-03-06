@@ -1,6 +1,12 @@
 @media screen and (max-width: 1000px){
     
     /* header */
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 70px;
+    }
     .headerlist{
         display: none;
     }
@@ -52,6 +58,22 @@
     margin-top: 10px;
     width: 250px;
 }
+}
+@media screen and (max-width: 550px){
+    .herooffer{
+        position: relative;
+        width:260px ;
+        height: 760px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        border: 1px; 
+        margin: auto;
+        top:30%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+      
+    }
 }
 /* buy/sell */
 @media screen and (max-width: 1250px){
