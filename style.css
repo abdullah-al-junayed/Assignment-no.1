@@ -10,12 +10,7 @@
     justify-content: space-between;
     padding: 30px 70px;
 }
-.headerimage{
-    width: 200px;
-height: 38.63918685913086px;
 
-
-}
 .headerlist ul{
     display: flex;
     list-style: none;

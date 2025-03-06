@@ -5,21 +5,25 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 50px 70px;
+        padding: 50px 0px;
     }
     .headerlist{
         display: none;
     }
     .button1{
-        padding: 7px 14px;
+        padding: 5px 9px;
         font-size: 18px;
+        width: 90px;
+        height: 30px;
     }
     .button2{
-        padding: 7px 14px;
+        padding: 5px 9px;
         font-size: 18px;
+        width: 136px;
+        height: 30px;
     }
     .headerimage{
-        width: 150px;
+        width: 100px;
     }
 }
 /* hero section */
@@ -62,7 +66,7 @@
 @media screen and (max-width: 550px){
     .herooffer{
         position: relative;
-        width:260px ;
+        width:380px ;
         height: 760px;
         background-color: #FFFFFF;
         border-radius: 10px;
