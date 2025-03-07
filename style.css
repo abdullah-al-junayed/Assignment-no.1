@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+ 
 }
 /* Header */
 .header{
@@ -238,14 +239,14 @@ padding: 80px 60px;
     text-decoration: underline;
     font-size: 16px;
     color: #161616;
-    text-underline-offset: 3px;
+    text-underline-offset: 5px;
     margin-top: 20px;
 }
 .detailsp3{
     text-decoration: underline;
     font-size: 16px;
     color: #161616;
-    text-underline-offset: 3px;
+    text-underline-offset: 5px;
     margin-top: -10px;
 }
 .features button{
@@ -301,4 +302,43 @@ background-color: #FFFFFF;
    justify-content: space-around;
    flex-wrap: wrap;
    
+}
+
+/* sign up details */
+.signup{
+    background-color: #CFBAFF;
+}
+.signup p{
+padding: 161px 70px;
+font-weight: bold;
+font-size: 75px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+.signup button{
+    width: 265px;
+height: 69px;
+gap: 10px;
+border-radius: 30px;
+padding-top: 15px;
+padding-right: 45px;
+padding-bottom: 15px;
+padding-left: 45px;
+background-color: #000000;
+color: white;
+font-weight: bold;
+border: none;
+font-size: 32px;
+overflow: hidden;
+margin-bottom: 100px;
+cursor: pointer;
+
+}
+.signupbtn{
+    display: flex;
+    justify-content: center;
+    
 }
