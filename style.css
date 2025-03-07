@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 70px;
+    padding: 15px 70px;
 }
 
 .headerlist ul{
@@ -28,9 +28,9 @@
 }
 .button1{
     width: 114px;
-height: 49px;
+height: 35px;
 
-    padding: 11px 28px;
+    padding: 2px 28px;
     background-color: #F1F1F1;
     color: black;
     border: none;
@@ -41,10 +41,10 @@ height: 49px;
 }
 .button2{
     width: 176px;
-height: 49px;
+height: 35px;
 
 
-    padding: 11px 28px;
+    padding: 2px 28px;
     background-color: #000000;
     color: white;
     border: none;
@@ -208,7 +208,7 @@ height: 680px;
 }
 .details{
 display: flex;
-justify-content: space-around;
+justify-content: space-evenly;
 }
 
 .featuresp{
@@ -247,4 +247,58 @@ padding: 80px 60px;
     color: #161616;
     text-underline-offset: 3px;
     margin-top: -10px;
+}
+.features button{
+    padding: 11px 24px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 30px;
+font-weight: 500;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+margin-top: 5%;
+
+}
+.divbtn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/* price */
+.price{
+   background-color: #F1F1F1;
+  
+}
+.p4{
+    font-weight: bold;
+    padding: 75px 65px;
+    font-size: 34px;
+}
+.buyprice{
+    width: 626px;
+height: 100px;
+border: 1px solid #000000;
+border-radius: 15px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin: 0px 0px 0px 65px;
+background-color: #FFFFFF;
+
+}
+.buyp{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.buyandsell{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   
 }

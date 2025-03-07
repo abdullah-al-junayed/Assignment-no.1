@@ -5,7 +5,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        padding: 50px 0px;
+        padding: 20px 0px;
     }
     .headerlist{
         display: none;
@@ -50,8 +50,8 @@
         bottom: 0%;
         left: 0%;
         right: 0%;
-      
     }
+    
     .findoffer div{
         display: flex;
         flex-direction: column;
@@ -111,5 +111,57 @@
         align-items: center;
         justify-content: center;
         gap: 20px;
+    }
+    .divbtn{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+/* price */
+@media screen and (max-width: 1250px){
+    .price{
+        margin-top: 40rem;
+        
+    }
+}
+@media screen and (max-width: 700px){
+.buyprice{
+    width: 326px;
+height: 100px;
+border: 1px solid #000000;
+border-radius: 15px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #FFFFFF;
+}
+
+
+.buyprice img{
+    width: 30px;
+}
+.buyprice p{
+    font-size: 16px;
+}
+.p4{
+  
+    padding: 25px 25px;
+  
+}
+.buyandsell{
+    display: flex;
+   align-items:center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 400px){
+   .p4{
+    text-align: center;
+   }
+    .buyp{
+        margin-left: -58px;
     }
 }
