@@ -184,5 +184,59 @@ background-color: #FFFFFF;
 
 }
 @media screen and (max-width: 550px){
-   
+    .signup button{
+        width: 205px;
+    height: 59px;
+    gap: 10px;
+    border-radius: 30px;
+  padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 22px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    cursor: pointer;
+    
+    }
+}
+
+/* footer */
+
+@media screen and (max-width: 1800px){
+
+    .div1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #000000;
+        color: white;
+        padding: 110px 393px;
+    }
+    .div2{
+        margin-top: 100px;
+    }
+
+}
+@media screen and (max-width: 800px){
+
+    .div1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #000000;
+        color: white;
+        padding: 110px 30px;
+    } 
+       .div2-5{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .fotterp{
+        text-align: center;
+    }
 }

@@ -342,3 +342,36 @@ cursor: pointer;
     justify-content: center;
     
 }
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    color: white;
+    padding: 110px 393px;
+}
+.div2-5{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.div2{
+    margin-top: -220px;
+}
+.div3 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.div3 p{
+    font-size: 28px;
+    font-weight: bold;
+}
+.footerp{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 13px;
+    padding: 47px 48px;
+}
